@@ -1,3 +1,490 @@
+
+
+.title_logo{
+    display: flex;
+    padding: 2rem;
+    height: 304px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    margin-top: 75px;
+}
+
+@media (min-width: 501px) and (max-width: 890px) {
+    .title_logo{
+        height: 350px;
+    }
+  }
+
+@media all and (max-width: 500px) {
+    .title_logo{
+        height: 300px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+  }
+
 .title {
     text-align: center;
+    font-weight: 700;
+    font-size: 3.5rem;
 }
+
+@media (min-width: 501px) and (max-width: 890px) {
+    .title{
+        font-size: 2.5rem;
+    }
+  }
+
+@media all and (max-width: 500px) {
+    .title{
+        font-size: 2rem;
+    }
+  }
+
+.title2{
+    text-align: left;
+    font-weight: 700;
+    color: white;
+    font-size: 2.75rem;
+    margin-right: auto;
+}
+
+@media (min-width: 501px) and (max-width: 890px) {
+    .title2{
+        font-size: 1.6rem;
+    }
+  }
+
+@media all and (max-width: 500px) {
+    .title2{
+        font-size: 1rem;
+    }
+  }
+
+
+.club_logo{
+    height: 550px;
+    width: 600px;
+}
+
+@media (min-width: 501px) and (max-width: 768px) {
+    .club_logo{
+        height: 350px;
+        width: 450px;
+    }
+  }
+
+@media all and (max-width: 500px) {
+    .club_logo{
+        height: 200px;
+        width: 300px;
+    }
+  }
+
+.buttons{
+    margin-top: 0.5rem;
+
+}
+
+@media (min-width: 501px) and (max-width: 890px) {
+    .buttons{
+        display: flex;
+        justify-content: center;
+    }
+  }
+
+@media all and (max-width: 500px) {
+    .buttons{
+        display: flex;
+        justify-content: center;
+    }
+  }
+
+.button_1{
+    height: 2.5rem;
+    width: 4.5rem;
+    border-radius: 0.75rem;
+    cursor: pointer;
+    background-color: white;
+    border: none;
+}
+
+.button_1:hover{
+    transition: ease-in-out 0.3s;
+    overflow: hidden;
+    transform: scale(0.9);
+}
+
+.link_1{
+    text-decoration: none;
+    color: #090c9b;
+    font-size: 1rem;
+}
+
+.button_2{
+    height: 2.5rem;
+    width: 5.5rem;
+    border-radius: 0.75rem;
+    cursor: pointer;
+    background-color: #090c9b;
+    margin-left: 1rem;
+    border: none;
+}
+
+.button_2:hover{
+    transition: ease-in-out 0.4s;
+    overflow: hidden;
+    transform: scale(0.9);
+}
+
+.link_2{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+.sponsers{
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+@media (min-width: 501px) and (max-width: 890px) {
+    .sponsers{
+        height: 13rem;
+    }
+  }
+
+@media all and (max-width: 500px) {
+    .sponsers{
+        display: flex;
+        flex-direction: column;
+        height: 18rem;
+        margin-top: 1rem;
+    }
+  }
+
+.sponsers_1{
+    height: 11rem;
+    width: 11rem;
+}
+
+@media (min-width: 501px) and (max-width: 890px) {
+    .sponsers_1{
+        height: 9rem;
+        width: 9rem;
+    }
+  }
+
+@media all and (max-width: 500px) {
+    .sponsers_1{
+        height: 8rem;
+    }
+  }
+
+.sponsers_2{
+    height: 11rem;
+    width: 11rem;
+}
+
+@media (min-width: 501px) and (max-width: 890px) {
+    .sponsers_2{
+        height: 9rem;
+        width: 9rem;
+    }
+  }
+
+@media all and (max-width: 500px) {
+    .sponsers_2{
+        height: 8rem;
+    }
+  }
+
+.places{
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media (min-width: 501px) and (max-width: 890px) {
+    .places{
+        display: flex;
+        flex-direction: column;
+        height: 600px;
+        margin-top: 1rem;
+    }
+  }
+
+@media all and (max-width: 500px) {
+    .places{
+        display: flex;
+        flex-direction: column;
+        height: 600px;
+        margin-top: 1rem;
+    }
+  }
+
+.places_1_1{
+    font-size: 10rem;
+    font-weight: 700;
+}
+
+@media (min-width: 501px) and (max-width: 890px) {
+    .places_1_1{
+        font-size: 6.5rem;
+    }
+  }
+
+@media all and (max-width: 500px) {
+    .places_1_1{
+        font-size: 6rem;
+    }
+  }
+
+.places_1_2{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+@media (min-width: 501px) and (max-width: 890px) {
+    .places_1_2{
+        font-size: 2.2rem;
+    }
+  }
+
+@media all and (max-width: 500px) {
+    .places_1_2{
+        font-size: 1.75rem;
+    }
+  }
+
+.about_us{
+    height: auto;
+    margin-top: 2rem;
+}
+
+@media (min-width: 501px) and (max-width: 890px) {
+    .about_us{
+        height: auto;
+    }
+  }
+
+@media all and (max-width: 500px) {
+    .about_us{
+       height: auto;
+    }
+  }
+
+  @media all and (max-width: 325px) {
+    .about_us{
+       height: auto;
+    }
+  }
+
+.about_us_title{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-left: 3rem;
+}
+
+@media (min-width: 501px) and (max-width: 890px) {
+    .about_us_title{
+        font-size: 2.2rem;
+    }
+  }
+
+.about_us_content{
+    display: flex;
+    width: 100%;
+}
+
+@media (min-width: 501px) and (max-width: 890px) {
+    .about_us_content{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+  }
+
+@media all and (max-width: 500px) {
+    .about_us_content{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+  }
+
+.content{
+    width: 50%;
+}
+
+@media (min-width: 501px) and (max-width: 890px) {
+    .content{
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+        width: 100vw;
+        margin: auto;
+        margin-top: 1rem;
+    }
+  }
+
+@media all and (max-width: 500px) {
+    .content{
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+        width: 100vw;
+        margin: auto;
+        margin-top: 1rem;
+    }
+  }
+
+.para{
+    margin-left: 3rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    font-size: 22px;
+    text-align: justify;
+}
+
+.learn_more_button{
+    display: block;
+    margin: auto;
+    height: 2rem;
+    width: 6rem;
+    border-radius: 0.45rem;
+    border: none;
+    background-color: white;
+    margin-top: 2rem;
+}
+
+.learn_more_button:hover{
+    transition: ease-in-out 0.3s;
+    overflow: hidden;
+    transform: scale(0.9);
+}
+
+@media all and (max-width: 500px) {
+    .learn_more_button{
+        margin-top: 1rem;
+    }
+  }
+
+.learn_more_link{
+    color: #090c9b;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.image{
+    height: 300px;
+    margin-right: 10px;
+    width: 50%;
+}
+
+@media (min-width: 501px) and (max-width: 890px) {
+    .image{
+        height: 280px;
+        width: 60vw;
+        margin: auto;
+        margin-top: 1rem;
+    }
+  }
+
+@media all and (max-width: 500px) {
+    .image{
+        height: 250px;
+        width: 90vw;
+        margin: auto;
+        margin-top: 1rem;
+    }
+  }
+
+.image_outline{
+    height: 299px;
+    width: 37.5vw;
+    background-color: #3066be;
+    rotate: z -10deg;
+    border-radius: 35px;
+}
+
+@media (min-width: 501px) and (max-width: 890px) {
+    .image_outline{
+        height: 270px;
+        width: 54vw;
+    }
+  }
+
+@media all and (max-width: 500px) {
+    .image_outline{
+        height: 230px;
+        width: 77vw;
+        display: block;
+        margin: auto;
+    }
+  }
+
+.image_link{
+    height: 260px;
+    width: 35vw;
+    margin-right: 10px;
+    margin-left: 15px;
+    border: 10px solid white;
+    border-radius: 30px;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 20px;
+}
+
+@media (min-width: 501px) and (max-width: 890px) {
+    .image_link{
+        height: 240px;
+        width: 50vw;
+        display: block;
+        margin: auto;
+        position: relative;
+        top: 11px;
+    }
+  }
+
+@media all and (max-width: 500px) {
+    .image_link{
+        height: 200px;
+        width: 70vw;
+        display: block;
+        margin: auto;
+        position: relative;
+        top: 11px;    
+    }
+  }
+
+.stories{
+    margin-top: 0.5rem;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (min-width: 501px) and (max-width: 890px) {
+    .stories{
+        height: 350px;
+        width: 100vw;
+        overflow-x: auto;
+        margin-top: 1rem;
+        gap: 0.5rem;
+    }
+  }
+
+@media all and (max-width: 500px) {
+    .stories{
+        height: 330px;
+        width: 100vw;
+        overflow-x: auto;
+        margin-top: 1rem;
+        gap: 0.5rem;
+    }
+  }

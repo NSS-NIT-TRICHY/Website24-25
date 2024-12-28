@@ -1,0 +1,133 @@
+.profileContainer {
+    background-color: #1e1e2f;
+    color: #ffffff; 
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: "Arial", sans-serif;
+}
+
+.profileForm {
+    display: grid;
+    gap: 20px;
+}
+
+.formGroup label {
+    font-family: 'Manrope', serif;
+    font-size: 16px;
+    color: #3066BE;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.formGroup input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border-color: #3066BE;
+    background-color: rgb(37, 37, 50);
+    color: white;
+    width: 90%;
+}
+
+.formRow {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.formRow .formGroup {
+    flex: 1;
+}
+
+h2 {
+    font-family: 'Manrope', serif;
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: Left;
+    color: #ffffff;
+}
+
+.certificatesSection {
+    margin-top: 30px;
+    background-color: #1e1e2f;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.certificatesSection table {
+    width: 100%;
+}
+
+.certificatesSection td {
+    padding: 10px;
+    text-align: left;
+    color: #3066BE;
+    background-color: #2c2c3f;
+    border-bottom: 1px solid #444;
+}
+
+.certificatesSection a {
+    color: #3066BE;
+    text-decoration: none;
+}
+
+.certificatesSection a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .formRow {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1190px) and (min-width: 761px) {
+    .profileContainer {
+        padding: 15px;
+        margin: 15px auto;
+    }
+
+    .formRow {
+        flex-direction: row;
+        gap: 15px;
+    }
+
+    .formGroup input {
+        width: 100%;
+    }
+}
+
+@media (max-width: 390px) {
+    .profileContainer {
+        padding: 10px;
+        margin: 5px auto;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    .formGroup label {
+        font-size: 12px;
+    }
+
+    .formGroup input {
+        font-size: 12px;
+        padding: 6px;
+    }
+
+    .certificatesSection table {
+        font-size: 12px;
+    }
+
+    .certificatesSection td {
+        padding: 5px;
+    }
+}

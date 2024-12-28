@@ -1,0 +1,137 @@
+.container {
+    margin: auto;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 1rem;
+  }
+  
+  .form {
+    background-color: rgb(50, 57, 83);
+    border-radius: 10px;
+    padding: 20px 40px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 750px;
+    height: auto;
+  }
+  
+  .title {
+    font-size: 83px;
+    font-weight: bold;
+    font-family: 'MedievalSharp', serif;
+    text-align: center;
+    margin-bottom: 1.2rem;
+    color: #fafafa;
+   
+  }
+  
+  .label {
+    display: block;
+    font-size: 1rem;
+    font-family: 'Inter', serif;
+    color: #3066BE;
+    margin-bottom: 0.5rem;
+  }
+  
+  .input {
+    width:90%;
+    padding: 0.75rem;
+    border-radius: 6px;
+    border: 1px solid #3066BE;
+    background-color: rgb(50, 57, 83);
+    color: #fff;
+    font-size: 1rem;
+  }
+  .error {
+     color: red;
+  }
+  
+  .input:focus {
+    border: 2px solid #00509e;
+    outline: none;
+  }
+  
+  .formGroup {
+    margin-bottom: 1rem;
+    width: 50%;
+  }
+  
+  .row {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+
+  }
+  
+  .button {
+    display:grid;
+    place-items: center;
+    width: 80%;
+    max-width: 80px;
+    padding: 0.6rem;
+    margin: auto;
+    background-color:rgb(48, 99, 181);
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+  }
+  
+  .button:hover {
+    background-color: #00509e;
+  }
+  
+  /* Tablet (1199px - 810px) */
+  @media (max-width: 1199px) and (min-width: 810px) {
+    .form {
+      padding: 20px 30px;
+      max-width: 500px;
+    }
+  
+    .title {
+      font-size: 1.5rem;
+    }
+  
+    .input {
+      padding: 0.55rem;
+      font-size: 0.75rem;
+    }
+  
+    .button {
+      font-size: 0.8rem;
+      padding: 0.3rem;
+    }
+  }
+  
+  /* Mobile (390px and below) */
+  @media (max-width: 390px) {
+    .row {
+      flex-direction: column;
+    }
+    .form {
+      padding: 0.5rem;
+      max-width: 300px;
+    }
+  
+    .title {
+      font-size: 0.5rem;
+    }
+  
+    .input {
+      padding: 0.3rem;
+      font-size: 0.6rem;
+    }
+  
+    .button {
+      font-size: 0.6rem;
+      padding: 0.2rem;
+    }
+  }
